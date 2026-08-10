@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Sitemap index for the vinayak682.github.io host.
+
+  The portfolio is served from a second repository under
+  /vinayakbhadani.github.io/, so the real sitemap lives there. This index sits
+  at the host root, which is where Search Console and crawlers look first, and
+  simply points at it. Because it only references the other file rather than
+  duplicating its URLs, the two can never drift out of sync.
+
+  After the domain migration the portfolio moves to the domain root and this
+  index becomes unnecessary; the real sitemap will be at /sitemap.xml directly.
+-->
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://vinayak682.github.io/vinayakbhadani.github.io/sitemap.xml</loc>
+    <lastmod>2026-08-10</lastmod>
+  </sitemap>
+</sitemapindex>

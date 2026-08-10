@@ -10,11 +10,13 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://vinayak682.github.io/vinayakbhadani.github.io/sitemap.xml
+Sitemap: https://vinayak682.github.io/sitemap.xml
 
-# Declaring a sitemap that lives in a subdirectory is valid: a robots.txt at
-# the host root is authoritative for the whole host, so the cross-directory
-# reference is honoured by Google and Bing.
+# That file is a sitemap INDEX. It points at the real sitemap, which lives in
+# the portfolio repo at /vinayakbhadani.github.io/sitemap.xml. Keeping the
+# index at the host root means Search Console and crawlers find a sitemap at
+# the conventional location, and the index never needs syncing because it only
+# references the other file.
 #
 # After the domain migration (see migrate-domain.py in the portfolio repo),
 # this file moves to vinayakbhadani.com and the line above becomes:
